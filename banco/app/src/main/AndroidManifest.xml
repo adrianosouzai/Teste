@@ -11,7 +11,6 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-
     <uses-permission android:name="android.permission.RUN_INSTRUMENTATION" />
 
     <application
@@ -27,9 +26,7 @@
 
         <uses-library android:name="android.test.runner" />
 
-
         <!-- START -->
-
 
         <activity
             android:label="@string/activity_label_splash"
@@ -39,12 +36,12 @@
         <activity
             android:label="@string/activity_label_splash"
             android:name="br.banco.services.splash.SplashView"  >
-            <!--
+          
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            -->
+     
         </activity>
 
         <!-- FUND detail -->
@@ -57,7 +54,6 @@
         <activity
             android:label="@string/activity_label_fund_detail"
             android:name="br.banco.services.fund.detail.DetailViewTemplate"  >
-
         </activity>
 
         <!-- FUND option -->
@@ -65,8 +61,6 @@
         <activity
             android:label="@string/activity_label_fund_detail"
             android:name="br.banco.services.fund.detail.DetailView"  >
-
-
         </activity>
 
         <!-- CONTACT -->
@@ -92,17 +86,9 @@
             android:name="br.banco.services.app.alert.AlertView"  >
         </activity>
 
-
         <activity
             android:label="@string/activity_label_splash"
             android:name="br.banco.services.Test">
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
-
         </activity>
 
     </application>
